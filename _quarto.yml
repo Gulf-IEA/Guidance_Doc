@@ -2,20 +2,30 @@ project:
   type: book
 
 book:
-  title: "Guidance_Doc"
-  author: "Norah Jones"
+  title: "Guidance Document"
+  author: "Seaside Chatters"
   date: "1/24/2024"
+  
+
   chapters:
     - index.qmd
     - intro.qmd
-    - summary.qmd
+    - part: Tutorials/Tutorial_Intro.qmd
+      chapters:
+      - Tutorials/Creating_a_Quarto_Book.qmd
+      - Tutorials/Adapt NE SoE Indicator.qmd
+    # - Tutorials/automated_data_downloads.qmd
+      - Tutorials/intro2spatial.qmd
+    - part: "Second Part"
+      chapters:
+      - Products/Products.qmd
     - references.qmd
 
 bibliography: references.bib
 
 format:
   html:
-    theme: cosmo
+    theme: flatly
   pdf:
     documentclass: scrreprt
 

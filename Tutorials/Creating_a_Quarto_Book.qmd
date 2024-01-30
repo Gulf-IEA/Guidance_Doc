@@ -1,0 +1,34 @@
+---
+title: "Creating a Quarto Book"
+author: "Brittany Troast"
+---
+
+## Creating a new Quarto Book & Repo
+
+There are several ways to do this which are well outlined in chapters [15](https://happygitwithr.com/new-github-first), [16](https://happygitwithr.com/existing-github-first), and [17](https://happygitwithr.com/existing-github-last) of [Happy Git and GitHub for the useR](https://happygitwithr.com/).
+
+To be able to use the Quarto Book template when creating a new project, so that all the necessary files are included I followed these steps.
+
+1.  Create a New Project in RStudio
+
+2.  Choose "New Directory" to see a list of possible formats
+
+    ![](Images/Format%20Options.png)
+
+3.  Select "Quarto Book"
+
+4.  Enter the name of the project (will eventually become your repo name) and make sure it is in the correct directory.
+
+5.  Click "Create a git repository" before making the project.
+
+    ![](Images/create_git.png)
+
+6.  Stage and commit the files the files that are part of the Quarto Book template (can alter later)
+
+7.  Create a repo on GitHub by running usethis::use_github() in the console
+
+    -   To add the quarto book to the Gulf IEA organisation I added the organisation="Gulf-IEA" argument
+
+    -   If you have already used RStudio with GitHub it will know your account and should know where to go
+
+8.  This create a new repo on GitHub as the origin and opens the repo in your browser

@@ -1,7 +1,7 @@
 # Preface {.unnumbered}
 
-```{r}
-usethis::use_github(organisation = "Gulf-IEA")
+![](Uploaded%20Images/GoM%20IEA.png){fig-align="center" width="400"}
 
-```
+This is the guidance document compiled by members of the Gulf of Mexico Integrated Ecosystem Assessment members to facilitate program missions and promote open science.
+
 
